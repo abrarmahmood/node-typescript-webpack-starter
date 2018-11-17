@@ -17,7 +17,7 @@
               "NODE_ENV": "development"
             },    
             "sourceMaps": true,
-            "outFiles": ["${workspaceFolder}/build/**/*.js"]
+            "outFiles": ["${workspaceFolder}/build/*.js"]
           }
      ]
 }
