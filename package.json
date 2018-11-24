@@ -20,5 +20,8 @@
     "ts-loader": "^3.0.5",
     "typescript": "^2.5.3",
     "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.9"
   }
 }
