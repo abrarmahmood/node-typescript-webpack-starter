@@ -1,9 +1,15 @@
 {
-    "compilerOptions": {
-      "outDir": "./build/",
-      "noImplicitAny": true,
-      "target": "es5",
-      "sourceMap": true,
-      "allowJs": true
-    }
-  }
+  "compilerOptions": {
+    "outDir": "./build/",
+    "noImplicitAny": true,
+    "target": "es5",
+    "sourceMap": true,
+    "allowJs": true,
+    "lib": [
+      "es2015"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
